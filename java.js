@@ -1,16 +1,27 @@
 function tamgiac(h) {
     for (let i = 0; i <= h; i++) {
-        let row = " * ";
+        let row = "";
         let space = "";
-        for (let k = 1; k <= h-i ; k++) { 
 
-            space += "  ";
+        for (let j = 1; j <= h-i; j++) {
+            space += "_";
         }
-        console.log(space+row);
+
+        for (let k = 1; k <= 2*i-1 ; k++) { 
+
+            row += "*";
+        }
+
+        console.log(space + row);
 
     }
 
 }
-tamgiac(4
-    
-)
+
+
+tamgiac(4)
+
+//________*
+//______ ***
+//_____ *****
+//_____*******
