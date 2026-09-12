@@ -1,3 +1,4 @@
+
 function tcvuongphai(h) {
     for (let i = 1; i <= h; i++) {
         let  star = "";
