@@ -1,21 +1,22 @@
-// nhap 1 so chan
-function chanle(a){
-    if(a === 1){console.log("kit")}
-  
-    else if(a === 2){console.log("Kat")}  
-    
-    else if( a===4){console.log("my")} 
-    
-   else  if( a>4 && a<10){ console.log("buA")}
-   
-   else{console.log("phuong")}
+function canbachai(){
+let a = 1/2;
+let b = 2;
+let c = 2;
+let delta = Math.pow(b,2) - 4*a*c;
+if(delta < 0 ){ 
+ console.log("phuong trinh vo nghiem ");}
+else if (delta === 0){
+ x1 = -b/ (2*a);
+ console.log("phuong trinh co nghiem kep x1 = x2 = " + x1);
 }
-chanle(1000)
+else if (delta > 0) {
+x1 =(-b - Math.sqrt(delta))/(2*a);
+x2 =(-b + Math.sqrt(delta))/(2*a);
+console.log("phuong trinh co nghiem");
+console.log("x1=" + x1);
+console.log("x2=" + x2);
+}
+}
+ canbachai()
 
-function so(a){
-if ( a % 2 === 0){console.log("sochan")}
-else {console.log("sole")}}
- so(4)
- 
- let a = ["kit","kat","phuong"]
-console.log(a[1])
+
