@@ -1,9 +1,12 @@
 function canbachai(){
-let a = 1/2;
-let b = 2;
-let c = 2;
+let a = 0 ;
+let b = -1;
+let c = 5;
 let delta = Math.pow(b,2) - 4*a*c;
-if(delta < 0 ){ 
+if(a === 0){
+  console.log("phuong trinh vo nghia")  
+}
+else if(delta < 0 ){ 
  console.log("phuong trinh vo nghiem ");}
 else if (delta === 0){
  x1 = -b/ (2*a);
